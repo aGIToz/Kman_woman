@@ -9,8 +9,11 @@ split = 0.25
 path_feature_train = 'output/features_train.npy'
 path_feature_test = 'output/features_test.npy'
 
-# class weights
+# class weights, this is because there is class
+# imbalance between man and woman. For 1 image of man
+# there are 1.66 image of woman
 classWeights = [1.66, 1]
 
-# Dropout param
+# Dropout param, decreasing this will increase the 
+# overfitting(gap between val_acc and acc), althouh val_acc increases
 param_dropout = 0.9
