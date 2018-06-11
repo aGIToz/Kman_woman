@@ -1,5 +1,5 @@
 # Kman_woman
-This  a temporary directory. The purpose is to classify men and women dataset on cpu.
+This  is a temporary directory. The purpose was to classify men and women dataset on cpu.
 
 ## Commands
 ``` shell
