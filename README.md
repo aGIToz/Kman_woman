@@ -18,7 +18,7 @@ Below is sklearn classification report
 - **support**:The support is the number of occurrences of each class in y_true.
 ![classification_report](./results/classification_report.png)
 
-Below is evolution of loss/acc over epochs. Observe they remain same for validation and train set roughly throughout the epochs.
+Below is evolution of loss/acc. Observe that they remain same for validation and train set roughly througout the training .
 ![loss_accuracyVSepochs](./results/loss_accuracyVSepochs.png)
 
 ## Environment
