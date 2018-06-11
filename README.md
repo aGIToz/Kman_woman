@@ -22,5 +22,5 @@ Below is evolution of loss/acc over epochs. Observe they remain same for validat
 ![loss_accuracyVSepochs](./results/loss_accuracyVSepochs.png)
 
 ## Environment
-Pyhton3.5.2, OpenCV3.3.0, sk-learn0.19, matplotlib2.1 and Keras2.1 All the standard libs were used.
+Pyhton3.5.2, OpenCV3.3.0, sk-learn0.19, matplotlib2.1, Keras2.1 and all the standard libs were used.
 
