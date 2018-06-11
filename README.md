@@ -9,13 +9,15 @@ $ python finetune.py --dataset data/ --model output/man_woman.model
 - **--model**: Path to save new NN model.
 
 ## Results
-Observe in the figure below that how (val_acc, acc) and (val_loss, loss) roughly remain same through out the training. This is a sign that model will generalize well on unseen data. The final validation accuracy is 85.42
+Observe in the figure below that how val_acc and acc roughly remain high and same . This is a sign that model will generalize well on unseen data. The final validation accuracy is 85.42
 ![last_5_epochs](./results/last_5_epochs.png)
+
 Below is sklearn classification report
-![classification_report](./results/classification_report.png)
 - **precision**: The intuitively the ability of the classifier not to label as positive a sample that is negative.
 - **recall**:  The intuitively the ability of the classifier to find all the positive samples.
 - **support**:The support is the number of occurrences of each class in y_true.
+![classification_report](./results/classification_report.png)
+
 Below is evolution of loss/acc over epochs. Observe they remain same roughly through out the epochs.
 ![loss_accuracyVSepochs](./results/loss_accuracyVSepochs.png)
 
