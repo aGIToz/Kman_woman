@@ -34,7 +34,7 @@ imagePaths = list(p.glob('./**/*.jpg'))
 imagePaths = [str(names) for names in imagePaths]
 classNames=[os.path.split(os.path.split((names))[0])[1] for names in imagePaths]
 classNames = [str(x) for x in np.unique(classNames)]
-print("[INFO] class names:"classNames)
+print("[INFO] class names:",classNames)
 
 # initialize the image preprocessors
 sap = SimplePreprocessor(224, 224)
